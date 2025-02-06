@@ -1,8 +1,10 @@
-
+import Image from 'next/image';
+// import { Button } from '@/components/ui/button';
 export default function Home() {
   return (
     <div>
-      <p className='font-bold text-rose-500'>Home</p>
+      {/* <Button variant="destructive">Click me</Button> */}
+      <Image src="/logo.svg" height={50} width={50} alt="Logo" />
     </div>
   );
 }
